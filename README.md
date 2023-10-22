@@ -4,3 +4,5 @@ This is a javascript course
 Author: Hemanth
 <br>
 Update with commit changes
+<br>
+Refreshed
