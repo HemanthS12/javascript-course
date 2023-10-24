@@ -24,5 +24,6 @@ let accountEmail = "hemanth@gmail.com"
 let accountPassword = "12345"
 let accountCity = "Bengaluru"
 let accountState;
+let accountPincode;
 
-console.table([accountID, accountEmail, accountPassword, accountCity, accountState])
+console.table([accountID, accountEmail, accountPassword, accountCity, accountState, accountPincode])
