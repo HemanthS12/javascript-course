@@ -42,3 +42,16 @@ const arr1 = (charName.split('-'));
 console.log(arr1);
 console.log(arr1[0]);
 console.log("ok");
+
+let message = "You have three notifications"
+console.log(message);
+
+let userName = "Hemanth"
+
+let messageToUser = `${message}, ${userName}!`
+console.log(messageToUser);
+
+let name1 = "Rachin"
+let greeting = "Hi, my name is "
+let myGreeting = `${greeting}${name1}`
+console.log(myGreeting);
