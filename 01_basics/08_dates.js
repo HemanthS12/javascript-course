@@ -33,3 +33,11 @@ console.log(newDate.toLocaleString('default', {
     weekday: "long",
     year: "numeric"
 }));
+
+let newDate1 = new Date()
+newDate1.toISOString()
+console.log(newDate1);
+
+let newDate2 = new Date()
+newDate2.toJSON()
+console.log(newDate2);
