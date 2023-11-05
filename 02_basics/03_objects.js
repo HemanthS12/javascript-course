@@ -53,4 +53,6 @@ console.log(JsUser.greetingTwo());
 JsUser.ageOne = function () {
     console.log(`${this.name} age is, ${this.age}`);
 }
-console.log(JsUser.ageOne());
+// console.log(JsUser.ageOne()); //We get undefined when we don't return anything
+// JsUser.ageOne();
+// return JsUser.ageOne()
