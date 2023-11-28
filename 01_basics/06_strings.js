@@ -55,3 +55,19 @@ let name1 = "Rachin"
 let greeting = "Hi, my name is "
 let myGreeting = `${greeting}${name1}`
 console.log(myGreeting);
+
+// Capitalize the first letter of the variable myString and store it in a new variable
+const myString = 'developer'
+
+let myNewString
+// Solution1:
+// myNewString = (myString.charAt(0).toUpperCase() + myString.substring(1));
+
+// Solution2:
+// myNewString = (`${myString.charAt(0).toUpperCase()}${myString.substring(1)}`);
+
+// Solution3:
+// myNewString = (myString.charAt(0).toUpperCase() + myString.slice(1));
+
+// Solution4:
+// myNewString = (myString[0].toUpperCase() + myString.slice(1));
