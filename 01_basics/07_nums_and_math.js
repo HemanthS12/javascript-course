@@ -30,3 +30,31 @@
 // const max = 6
 
 // console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+let x = Math.floor(Math.random() * 100 + 1)
+let y = Math.floor(Math.random() * 50 + 1)
+
+//sum
+const sum = x + y
+const resultSum = `Sum of ${x} and ${y} is: ${sum}`
+console.log(resultSum);
+
+//differnce
+const diff = x - y
+const resultDiff = `Difference of ${x} and ${y} is: ${diff}`
+console.log(resultDiff);
+
+//product
+const prod = x * y
+const resultProd = `Product of ${x} and ${y} is: ${prod}`
+console.log(resultProd);
+
+//quotient
+const quo = x / y
+const resultQuo = `Quotient of ${x} and ${y} is: ${quo}`
+console.log(resultQuo);
+
+//remainder
+const rem = x % y
+const resultRem = `Remainder of ${x} and ${y} is: ${rem}`
+console.log(resultRem);
