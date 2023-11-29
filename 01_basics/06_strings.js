@@ -5,17 +5,17 @@ const repoCount = 10
 // console.log(constg)               
 
 // This is called string interpolation
-console.log(`I am ${name} and my repocount as of now is ${repoCount}.`);
+// console.log(`I am ${name} and my repocount as of now is ${repoCount}.`);
 
 const charName = new String("Iron-Man")
-console.log(charName[0]);
-console.log(charName.__proto__);
-console.log(charName.length);
-console.log(charName.toUpperCase());
-console.log(charName.charAt(5));
-console.log(charName.indexOf('M'));
-console.log(charName.indexOf('A'));
-console.log(charName.indexOf('a'));
+// console.log(charName[0]);
+// console.log(charName.__proto__);
+// console.log(charName.length);
+// console.log(charName.toUpperCase());
+// console.log(charName.charAt(5));
+// console.log(charName.indexOf('M'));
+// console.log(charName.indexOf('A'));
+// console.log(charName.indexOf('a'));
 
 const newString = charName.substring(1, 4)
 console.log(newString);
@@ -25,6 +25,9 @@ console.log(newString1);
 
 const anotherString = charName.slice(1, 4)
 console.log(anotherString);
+
+const anotherString11 = charName.slice(-8, -4)
+console.log(anotherString11);
 
 const anotherString1 = charName.slice(5, 2)
 console.log(anotherString1);
@@ -39,8 +42,12 @@ console.log(url.replace('%20', '-'));
 console.log(url.includes('hemanths'));
 
 const arr1 = (charName.split('-'));
+const arr2 = (charName.split(''));
+
 console.log(arr1);
 console.log(arr1[0]);
+console.log(arr2);
+
 console.log("ok");
 
 let message = "You have three notifications"
@@ -71,3 +78,5 @@ let myNewString
 
 // Solution4:
 // myNewString = (myString[0].toUpperCase() + myString.slice(1));
+
+console.log(myNewString);
