@@ -1,11 +1,11 @@
 // const bal = 78000
 // console.log(bal);
 
-// const balance = new Number(80000.8799)
-// console.log(balance);
+const balance = new Number(80000.8799)
+console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(typeof (balance));
+console.log(balance.toString().length);
+console.log(typeof (balance));
 // console.log(balance.toFixed(2));
 
 // const num1 = 178.9876
